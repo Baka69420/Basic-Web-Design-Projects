@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+* p{
+    font-weight: normal;
+}
+
+header {
+    margin: 5px 5px;
+    height: fit-content;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 5px 0;
+}
+
+header #infoCurso {
+    margin: 5px auto;
+}
+
+header #infoCurso h2 {
+    min-width: 30%;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+}
+
+header p{
+    margin: 5px 0;
+    min-width: 12%;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    border: solid;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+header p:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    margin: 5px auto;
+    height: 60px;
+    width: fit-content;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+footer img {
+    height: 50px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+footer p {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+#cuerpo {
+    min-height: 79vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 80%;
+    margin: 5px auto;
+    border-radius: 5px;
+}
