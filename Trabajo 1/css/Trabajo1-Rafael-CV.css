@@ -1,0 +1,84 @@
+body {
+    background-image: url("../images/repeat-wallpaper.png");
+    background-repeat: repeat;
+}
+
+body #cuerpo {
+    background: none;
+}
+
+body #cuerpo #contact-info {
+    margin: 5px auto;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+
+body #cuerpo #work-experience {
+    margin: 5px auto;
+    padding: 10px;
+    height: fit-content;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+
+body #cuerpo #work-experience .Puesto {
+    padding: 5px;
+    margin: 5px auto;
+    height: fit-content;
+    border: solid;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+}
+
+body #cuerpo #education {
+    margin: 5px auto;
+    padding: 10px;
+    height: fit-content;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+
+body #cuerpo #education .tipo-estudio {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+body #cuerpo #education .tipo-estudio .estudio {
+    padding: 5px;
+    margin: 5px auto;
+    height: fit-content;
+    border: solid;
+    border-radius: 5px;
+}
+
+body #cuerpo #habilidades-digitales {
+    margin: 5px auto;
+    padding: 10px;
+    height: fit-content;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+
+body #cuerpo #habilidades-digitales .tipo-habilidad-digital {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+body #cuerpo #habilidades-digitales .tipo-habilidad-digital .tecnologia {
+    padding: 5px;
+    margin: 5px auto;
+    height: fit-content;
+    border: solid;
+    border-radius: 5px;
+}
