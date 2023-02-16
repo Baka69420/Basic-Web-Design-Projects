@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/fuente-hispanidad-cr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cuerpo {
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+}
+
+#cuerpo table {
+    margin: auto;
+    border: 3px solid black;
+}
+
+#cuerpo table td {
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
