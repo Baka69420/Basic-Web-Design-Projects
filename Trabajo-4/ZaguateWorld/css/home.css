@@ -1,0 +1,147 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+  background-position: fixed;
+}
+
+#container {
+  background: transparent url(../images/grass.png) repeat-x;
+  background-position: left bottom;
+}
+
+#main {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#main nav {
+  background-color: #53C7DF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dropdown-menu {
+  background-color: #53C7DF;
+}
+
+main {
+  margin: 10px 0;
+  display: flex;
+}
+
+main article {
+  display: grid;
+}
+
+main article h1, main article p, main article ol {
+  grid-column: 1;
+}
+
+main article h1 {
+  color: #E5017D;
+}
+
+main article img {
+  grid-column: 2;
+  grid-row: 2;
+  border: solid 1px black;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+#recuadros {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#recuadros aside {
+  height: 220px;
+  background-color: #F5FEFF;
+  border: solid 1px #C9E5E9;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#recuadros aside marquee a {
+  display: block;
+}
+
+footer {
+  background-color: #53c7df;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+#links a {
+  border-right: 1px solid white;
+  padding: 0 5px;
+  color: white;
+}
+
+#links a:last-child {
+  border-right: none;
+  padding: 0 5px;
+}
+
+footer p {
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  #main {
+    width: 60%;
+  }
+  main{
+    flex-direction: row;
+    gap: 30px;
+  }
+  #recuadros {
+    flex-direction: column;
+  }
+  #recuadros aside {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #main {
+    width: 80%;
+  }
+  main{
+    flex-direction: column;
+    gap: 0;
+  }
+  #recuadros {
+    flex-direction: row;
+  }
+  #recuadros aside {
+    width: 500px;
+  }
+}
