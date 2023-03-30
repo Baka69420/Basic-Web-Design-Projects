@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Esta es la pantalla de incio que contiene el listado de todos los trabajos de Rafael Alvarado en el curso de Disenno Web">
-    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="./template/css/indexStyle.css">
 </head>
 <body>
     <header>
@@ -16,32 +16,69 @@
             <h2>Profesor: <strong>Sergio Gonzalez</strong></h2>
             <h2>Curso Lectivo: <strong>1er Cuatrimestre 2023</h2>
         </div>
-        <p title="Curriculum Rafael Alvarado"><a href="./Trabajo-1/Rafael-CV.html">Trabajo 1</a></p>
-        <p title="Elecciones CR 2022"><a href="./Trabajo-2/Elecciones-CR-2022.html">Trabajo 2</a></p>
-        <p title="Green CR"><a href="./Trabajo-3/GreenCR.html">Trabajo 3</a></p>
-        <p title="Zaguate World"><a href="./Trabajo-4/ZaguateWorld/index.html">Trabajo 4</a></p>
-        <p title="Sintaxis Basica JavaScript"><a href="./Trabajo-5/sintaxis-basico-JavaScript.html">Trabajo 5</a></p>
-        <p title="Calculadora Estate Agency"><a href="./Trabajo-6/EstateAgency/index.html">Trabajo 6</a></p>
-        <p title="Consumo APIs Estate Agency"><a href="./Trabajo-7/EstateAgency/index.html">Trabajo 7</a></p>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+              <div class="container">
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-current="page">Home<span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trabajos</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a href="./Trabajo-1/Rafael-CV.html">Trabajo 1</a>
+                                <a href="./Trabajo-2/Elecciones-CR-2022.html">Trabajo 2</a>
+                                <a href="./Trabajo-3/GreenCR.html">Trabajo 3</a>
+                                <a href="./Trabajo-4/ZaguateWorld/index.html">Trabajo 4</a>
+                                <a href="./Trabajo-5/sintaxis-basico-JavaScript.html">Trabajo 5</a>
+                                <a href="./Trabajo-6/EstateAgency/index.html">Trabajo 6</a>
+                                <a href="./Trabajo-7/EstateAgency/index.html">Trabajo 7</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En Clase</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a href="./En-Clase/WebSemana2/index.html">Semana 2</a>
+                                <a href="./En-Clase/WebSemana3/index.html">Semana 3</a>
+                                <a href="./En-Clase/WebSemana4/index.html">Semana 4</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+          </div>
+        </nav>
     </header>
-    <div id="cuerpo">
-        <h1>PANTALLA DE INICIO</h1>
+    <main>
+        <br>
         <p>En esta pagina web se podran ver todos los trabajos del curso de <strong>Diseño de Aplicaciones Web</strong> del estudiante <strong> Rafael Alvarado</strong></p>
-        <p>Abajo se encuentra un listado de todos los trabajos que se han trabajado hasta el momento</p>
-        <p>En el caso que se quiera cambiar a otro trabajo, siempre estara disponible arriba en la pagina los otros trabajos</p>
-        <div id="trabajos">
-            <h2 title="Curriculum Rafael Alvarado"><a href="./Trabajo-1/Rafael-CV.html">TRABAJO 1</a></h2>
-            <h2 title="Elecciones CR 2022"><a href="./Trabajo-2/Elecciones-CR-2022.html">TRABAJO 2</a></h2>
-            <h2 title="Green CR"><a href="./Trabajo-3/GreenCR.html">TRABAJO 3</a></h2>
-            <h2 title="Zaguate World"><a href="./Trabajo-4/ZaguateWorld/index.html">TRABAJO 4</a></h2>
-            <h2 title="Sintaxis Basica JavaScript"><a href="./Trabajo-5/sintaxis-basico-JavaScript.html">TRABAJO 5</a></h2>
-            <h2 title="Calculadora Estate Agency"><a href="./Trabajo-6/EstateAgency/index.html">TRABAJO 6</a></h2>
-            <h2 title="Consumo APIs Estate Agency"><a href="./Trabajo-7/EstateAgency/index.html">TRABAJO 7</a></h2>
+        <p>Estos trabajos que tenemos son tanto las diferentes tareas que he tenido que realizar en el curso, o tambien de algunas paginas rapidas que se hayan tenido que crear en medio de clase</p>
+        <div id="direcciones">
+            <div id="trabajos">
+                <h2 title="Curriculum Rafael Alvarado"><a href="./Trabajo-1/Rafael-CV.html">TRABAJO 1</a></h2>
+                <h2 title="Elecciones CR 2022"><a href="./Trabajo-2/Elecciones-CR-2022.html">TRABAJO 2</a></h2>
+                <h2 title="Green CR"><a href="./Trabajo-3/GreenCR.html">TRABAJO 3</a></h2>
+                <h2 title="Zaguate World"><a href="./Trabajo-4/ZaguateWorld/index.html">TRABAJO 4</a></h2>
+                <h2 title="Sintaxis Basica JavaScript"><a href="./Trabajo-5/sintaxis-basico-JavaScript.html">TRABAJO 5</a></h2>
+                <h2 title="Calculadora Estate Agency"><a href="./Trabajo-6/EstateAgency/index.html">TRABAJO 6</a></h2>
+                <h2 title="Consumo APIs Estate Agency"><a href="./Trabajo-7/EstateAgency/index.html">TRABAJO 7</a></h2>
+            </div>
+            <div id="en-clase">
+                <h2 title="Semana 2"><a href="./En-Clase/WebSemana2/index.html">Semana 2</a></h2>
+                <h2 title="Semana 3"><a href="./En-Clase/WebSemana3/index.html">Semana 3</a></h2>
+                <h2 title="Semana 4"><a href="./En-Clase/WebSemana4/index.html">Semana 4</a></h2>
+            </div>
         </div>
-    </div>
+    </main>
     <footer>
-        <img src="./template/images/maxwell-spin.gif" alt="spinning maxwell">
         <p>Creado por el estudiante Rafael Alvarado</p>
+        <img src="./template/images/maxwell-spin.gif" alt="spinning maxwell">
     </footer>
+    
+    <link rel="stylesheet" href="./template/bs5-files/bootstrap.min.css">
+    <script src="./template/bs5-files/bootstrap.bundle.min.js"></script>
 </body>
 </html>
