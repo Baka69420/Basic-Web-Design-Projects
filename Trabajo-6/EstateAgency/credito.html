@@ -25,6 +25,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- Script for Credit Calculator -->
+  <script src="./assets/js/creditCalculator.js"></script>
+
   <!-- =======================================================
   * Template Name: EstateAgency - v4.8.0
   * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
@@ -218,7 +221,46 @@
           <div class="col-sm-12">
             <div class="contact-map box">
               <div id="formularioCredito" >
-                Incluya aquí su formulario
+                <form class="text-center">
+                  <div class="dato-form m-2" id="email">
+                    <label class="d-block" for="email">Correo Electronico</label>
+                    <input type="email" placeholder="john.doe@gmail.com">
+                  </div>
+                  <div class="dato-form m-2" id="clientName">
+                    <label class="d-block" for="clientName">Nombre del Cliente</label>
+                    <input type="text" placeholder="John Doe">
+                  </div>
+                  <div class="dato-form m-2" id="clientBirthday">
+                    <label class="d-block" for="clientBirthday">Fecha de Nacimiento</label>
+                    <input type="date" placeholder="Fecha de Nacimiento">
+                  </div>
+                  <div class="dato-form m-2" id="clientSalary">
+                    <label class="d-block" for="clientSalary">Salario Neto de Cliente</label>
+                    <input type="number" placeholder="10000.00">
+                  </div>
+                  <div class="dato-form m-2" id="interesAnual">
+                    <label class="d-block" for="interesAnual">Tasa de Interes Anual</label>
+                    <input type="text" placeholder="7.10%" value="7.10">
+                  </div>
+                  <div class="dato-form m-2" id="plazoAnnos">
+                    <label class="d-block" for="plazoAnnos">Plazo en Aňos</label>
+                    <input type="range" min="1" max="8" value="1">
+                    <label id="valuePlazoAnnos">1</label>
+                  </div>
+                  <div class="dato-form m-2" id="valorVivienda">
+                    <label class="d-block" for="valorVivienda">Valor de la Vivienda</label>
+                    <input type="number" placeholder="10000.00">
+                  </div>
+                  <div class="dato-form m-2" id="montoSolicitud">
+                    <label class="d-block" for="montoSolicitud">Monto a Solicitar</label>
+                    <input type="number" min="1" max="80" placeholder="80">
+                  </div>
+                  <div class="dato-form m-2" id="calcular">
+                    <label class="d-block" for="calcular">Calcular</label>
+                    <input type="button" value="Calcular">
+                  </div>
+
+                </form>
               </div>
             </div>
           </div>
